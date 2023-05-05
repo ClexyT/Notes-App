@@ -6,10 +6,9 @@ const NoteManager = ({tittle,description})=> {
   return ( 
     <div>
       <div>
-        <a>
-
-        <p>{tittle}</p>
-        <p>{isDescription}</p>
+        <a className="flex justify-center">
+            <h2 className="">{tittle}</h2>
+            <h4>{isDescription}</h4>  
         </a>
       </div>
     </div>
