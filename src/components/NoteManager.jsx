@@ -1,12 +1,13 @@
 
 
 
+// eslint-disable-next-line react/prop-types
 const NoteManager = ({tittle,description})=> {
   const isDescription =  description ? description : "";  
   return ( 
     <div>
       <div>
-        <a className="flex justify-center">
+        <a className=" flex ">
             <h2 className="">{tittle}</h2>
             <h4>{isDescription}</h4>  
         </a>
