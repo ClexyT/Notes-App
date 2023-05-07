@@ -1,2 +1,2 @@
 # Notes-App 
-a proyect in progress with vaancito
+a proyect in progress with vaancito and migue
