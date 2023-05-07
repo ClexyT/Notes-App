@@ -11,6 +11,7 @@ const AddNote = () => {
         setNotes([...notes, newNote]);
         setNewNote("");
     }
+    
   return (
     <div>
     <button>

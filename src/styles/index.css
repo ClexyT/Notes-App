@@ -7,6 +7,13 @@ body{
     color:white !important;
 }
 .neon{
-        color: #fff;
-        text-shadow: 0 0 5px yellow, 0 0 15px yellow, 0 0 30px yellow;
-      }
+    color: #fff;
+    text-shadow: 0 0 5px yellow, 0 0 15px yellow, 0 0 30px yellow;
+}
+.noteManager{
+    background: #1e1e1e;
+    border-radius: 10px;
+    padding: 30px 0px 10px 20px;
+    margin: 20px 900px 0px 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
