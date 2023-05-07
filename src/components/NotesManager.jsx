@@ -1,4 +1,4 @@
-import NoteManager from "./noteManager"
+import NoteManager from "./NoteManager"
 
 
 const NotesManager = () => {
