@@ -7,6 +7,7 @@ const NoteManager = ({tittle,description})=> {
         <a className="m-20">
             <h2 className="">{tittle}</h2>
             <h4 className="">{isDescription}</h4>
+            
         </a>
       </div>
     </div>

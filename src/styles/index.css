@@ -6,3 +6,7 @@ body{
     background: #121112;
     color:white !important;
 }
+.neon{
+        color: #fff;
+        text-shadow: 0 0 5px yellow, 0 0 15px yellow, 0 0 30px yellow;
+      }
