@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { useState } from 'react'
 const AddNote = () => {
     const [notes, setNotes] = useState([]);
@@ -13,15 +13,24 @@ const AddNote = () => {
     }
   return (
     <div>
+    <button>
+        Add Note
+    </button>
+
       <form onSubmit={addNote}>
-        <input type="text" value={newNote} onChange={handleNoteChange} />
-        <button type="submit">Add Note</button>
+        <input 
+        className='bg-transparent border-white'
+        type="text" 
+        value={newNote} 
+        onChange={handleNoteChange} 
+        />
+        <button type="submit">Send Note</button>
       </form>
-      <ul>
+      <div>
         {notes.map((note) => (
-          <li key={note}>{note}</li>
+          <div key={note}>{note}</div>
         ))}
-      </ul>
+      </div>
     </div>
   )
 }
