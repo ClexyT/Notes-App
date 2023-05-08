@@ -19,7 +19,7 @@ const NotesManager = () => {
         <NoteManager 
         tittle="" 
         description="" 
-        category={blue}
+        category={red}
         />    
       </div>
     </div>
