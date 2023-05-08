@@ -1,16 +1,15 @@
+
 import NotesManager from "./NotesManager"
-import NoteVisualizer from "./NoteVisualizer"
-import 'bootstrap/dist/css/bootstrap.min.css'
 
-
-function App () {
+function App() {
   return (
-    <div className="App">
+    <div> 
+      <h1 className="flex justify-center text-2xl neon">Notes App</h1>
+      <h3 className="flex justify-center text-1xl" >a page designed by Migue, Vaancito & ClexyT</h3>
+      
       <NotesManager />
-      <NoteVisualizer />
     </div>
   )
-  }
-
+}
 
 export default App

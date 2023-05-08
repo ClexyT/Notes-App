@@ -1,14 +1,27 @@
+import NoteManager from "./NoteManager"
+import AddNote from "./AddNote"
 
+// categories 
+  const red = "text-red-600"
+  const blue = "text-blue-600"
+  const green = "text-green-600"
 
 const NotesManager = () => {
   return (
-    <div>
-    <nav className="navbar bg-dark" data-bs-theme="dark">
-        {/* Navbar content */}
-     </nav>
-        <h1>
-            Notes Manager
-        </h1>
+    <div className="noteManager">
+      <AddNote />
+      <div>
+        <NoteManager 
+        tittle="hola titulo" 
+        description="hola descripcion" 
+        category={green}
+        /> 
+        <NoteManager 
+        tittle="" 
+        description="" 
+        category={red}
+        />    
+      </div>
     </div>
   )
 }
